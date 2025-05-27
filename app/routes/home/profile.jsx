@@ -19,19 +19,15 @@ import styles from './profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="¡Hola desde Bright People!" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I&apos;m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you&apos;re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+    Somos un equipo apasionado de desarrolladores y diseñadores con sede en Cartagena, listos para convertir tus ideas en soluciones digitales de alto impacto. Desde nuestra fundación, hemos entregado software a la medida en sectores públicos y privados, creando plataformas web, aplicaciones móviles y sistemas de gestión que optimizan procesos y potencian el crecimiento de nuestros clientes.
+
+
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I&apos;m always down for hearing
-      about new projects, so feel free to drop me a line.
+    ¿Quieres saber más? Escríbenos y empecemos a trabajar juntos en tu próximo proyecto.
     </Text>
   </Fragment>
 );
@@ -63,7 +59,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 href="/contact"
                 icon="send"
               >
-                Send me a message
+                Enviar mensaje
               </Button>
             </div>
             <div className={styles.column}>
