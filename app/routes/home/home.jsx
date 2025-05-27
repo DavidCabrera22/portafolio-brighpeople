@@ -105,7 +105,7 @@ export const Home = () => {
         index={1}
         title="Impulsando la transformación digital de tu negocio"
         description="En Bright People diseñamos y desarrollamos soluciones a medida que optimizan tus procesos: desde plataformas de gestión hasta apps móviles de alto rendimiento. Descubre cómo llevamos tus ideas del concepto al lanzamiento exitoso."
-        buttonText="View project"
+        buttonText="Ver proyecto"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
@@ -126,8 +126,8 @@ export const Home = () => {
         index={2}
         title="Soluciones móviles que acompañan a tu equipo"
         description="Desarrollamos apps dinámicas para planificar sesiones, gestionar rutinas y monitorear el rendimiento de tus deportistas en cualquier lugar y momento."
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonText="Ver proyecto"
+        buttonLink="/projects/smart-sparrow"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -150,7 +150,7 @@ export const Home = () => {
         index={3}
         title="Plataformas web empresariales"
         description="En Bright People diseñamos y desarrollamos aplicaciones web seguras y escalables para optimizar tus procesos internos y mejorar la experiencia de tus usuarios. Desde portales de gestión y dashboards hasta soluciones de colaboración en tiempo real, te acompañamos en cada fase: análisis, desarrollo, despliegue y mantenimiento continuo."
-        buttonText="View project"
+        buttonText="Ver proyecto"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
