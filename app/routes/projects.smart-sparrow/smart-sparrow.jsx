@@ -70,14 +70,14 @@ const EarthSection = lazy(() =>
   import('./earth').then(module => ({ default: module.EarthSection }))
 );
 
-const title = 'Designing the future of education';
+const title = 'Nuestro proceso de desarrollo';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'En Bright People combinamos metodologías ágiles con más de 20 años de experiencia en el sector, pasando cada proyecto por tres fases: descubrimiento durante reuniones de kickoff, definición de objetivos y levantamiento de requisitos; desarrollo iterativo con sprints cortos, entregas continuas, demos regulares y feedback en tiempo real; y lanzamiento y evolución con despliegue en producción, monitoreo y mejoras continuas según métricas de uso.';
 const roles = [
-  'Art Direction',
-  'UX and UI Design',
-  'Front End Development',
-  'Motion Design',
+  'Gestión de proyectos',
+  'Diseño UX/UI',
+  'Desarrollo Front-End',
+  'Desarrollo Back-End',
 ];
 
 export const meta = () => {
